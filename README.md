@@ -1,2 +1,68 @@
-# Scenimefy
-[ICCV 2023] Scenimefy: Learning to Craft Anime Scene via Semi-Supervised Image-to-Image Translation
+<div align="center">
+
+  <h1>Scenimefy: Learning to Craft Anime Scene via Semi-Supervised Image-to-Image Translation</h1>
+  
+  <div>
+      <a href="https://yuxinn-j.github.io/" target="_blank">Yuxin Jiang</a><sup>*</sup>,
+      <a href="https://liming-jiang.com/" target="_blank">Liming Jiang</a><sup>*</sup>,
+      <a href="https://williamyang1991.github.io/" target="_blank">Shuai Yang</a>,
+      <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>
+  </div>
+  <div>
+      MMLab@NTU affiliated with S-Lab, Nanyang Technological University
+  </div>
+
+[Paper](https://arxiv.org/abs/) | [Project Page](https://yuxinn-j.github.io/projects/Scenimefy.html) | [Anime Scene Dataset](#anime-scene-dataset) | ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Yuxinn-J/Scenimefy)
+
+  </br>
+  
+  <div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="assets/teaser.png">
+  </div>
+
+</div>
+
+-----------------------------------------------------
+
+**Changelog**
+
+- [TODO] release Codebase.
+- [TODO] release Anime dataset.
+- [TODO] build website.
+- [07/2023] The paper is accepted to ICCV 2023 🥳!
+-----------------------------------------------------
+
+## Getting Started
+
+## Anime Scene Dataset
+![anime-dataset](assets/anime-dataset.png)
+
+It is a high-quality anime scene dataset comprising 5,958 images with the following features:
+- High-resolution (1080×1080)
+- Shinkai-style (from 9 Mokota Shinkai films)
+- Pure anime scene: manual dataset curation by eliminating irrelevant and low-quality images
+
+In compliance with copyright regulations, we cannot directly release the anime images. However, you can conveniently extract the dataset by following the guidelines [here](todo.hehe).
+
+## Citation
+
+If you find this work useful for your research, please consider citing our paper:
+
+```bibtex
+@article{wu2023maxvqa,
+  title={Scenimefy: Learning to Craft Anime Scene via Semi-Supervised Image-to-Image Translation},
+  author={Jiang, Yuxin and Jiang, Liming and Yang, Shuai and and Loy, Chen Change},
+  journal={ICCV},
+  year={2023}
+}
+```
+
+## Acknowledgments
+
+The code is mainly developed based on [FreezeG](https://github.com/bryandlee/FreezeG) and [Hneg_SRC](https://github.com/jcy132/Hneg_SRC).
+
+
+
+## License
+
+Distributed under the S-Lab License. See `LICENSE` for more information.

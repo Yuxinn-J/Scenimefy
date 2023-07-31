@@ -11,6 +11,9 @@
   <div>
       MMLab@NTU affiliated with S-Lab, Nanyang Technological University
   </div>
+  <div>
+  In ICCV 2023.
+  </div>
 
 [Paper](https://arxiv.org/abs/) | [Project Page](https://yuxinn-j.github.io/projects/Scenimefy.html) | [Anime Scene Dataset](#anime-scene-dataset) | ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Yuxinn-J/Scenimefy)
 
@@ -36,7 +39,6 @@
 
 ## Anime Scene Dataset
 ![anime-dataset](assets/anime-dataset.png)
-
 It is a high-quality anime scene dataset comprising 5,958 images with the following features:
 - High-resolution (1080×1080)
 - Shinkai-style (from 9 Mokota Shinkai films)

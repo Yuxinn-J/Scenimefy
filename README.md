@@ -32,7 +32,7 @@
 - [TODO] release Codebase.
 - [TODO] release Anime dataset.
 - [TODO] build website.
-- [07/2023] The paper is accepted to ICCV 2023 🥳!
+- [07/2023] The paper is accepted to ICCV 2023 :tada:!
 -----------------------------------------------------
 
 ## Getting Started
@@ -44,7 +44,7 @@ It is a high-quality anime scene dataset comprising 5,958 images with the follow
 - Shinkai-style (from 9 Mokota Shinkai films)
 - Pure anime scene: manual dataset curation by eliminating irrelevant and low-quality images
 
-In compliance with copyright regulations, we cannot directly release the anime images. However, you can conveniently prepare the dataset following instructions [here](anime_dataset\README.md).
+In compliance with copyright regulations, we cannot directly release the anime images. However, you can conveniently prepare the dataset following instructions [here](anime_dataset/README.md).
 
 ## Citation
 

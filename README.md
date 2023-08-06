@@ -29,9 +29,9 @@
 
 **Changelog**
 
-- [TODO] release Codebase.
-- [TODO] release Anime dataset.
-- [TODO] build website.
+- [TODO] Code release.
+- [08/2023] Dataset is released.
+- [08/2023] Project Page is built.
 - [07/2023] The paper is accepted to ICCV 2023 :tada:!
 -----------------------------------------------------
 

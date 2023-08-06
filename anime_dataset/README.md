@@ -21,6 +21,13 @@ To get started, follow these steps:
 
     python frame_extract.py frameList.json path/to/movie/folder path/to/save/extracted/data
     ```
-    a total of xxx images from the 9 Shinkai movies should be obtained.
-    
-- perform any necessary post-processing, such as cropping, to tailor the dataset to your specific requirements.
+    a total of 2620 images (1720x1080) from the 9 Shinkai movies should be obtained.
+
+- Perform any necessary post-processing, e.g., cropping, to tailor the dataset to your specific requirements.
+
+----
+- All the things that need to be done in the future.
+
+    - [ ] Someone's Gaze source
+    - [ ] youtube-dl
+    - [ ] sanity check

@@ -31,7 +31,7 @@
 
 - [TODO] Code release.
 - [08/2023] Dataset is released.
-- [08/2023] Project Page is built.
+- [08/2023] Project page is built.
 - [07/2023] The paper is accepted to ICCV 2023 :tada:!
 -----------------------------------------------------
 
@@ -67,4 +67,4 @@ The code is mainly developed based on [FreezeG](https://github.com/bryandlee/Fre
 
 ## License
 
-Distributed under the S-Lab License. See `LICENSE` for more information.
+Distributed under the S-Lab License. See [LICENSE.md](./LICENSE.md) for more information.

@@ -1,8 +1,8 @@
-# Prepare Anime Scene Dataset
+# Anime Scene Dataset Guide
 
 To get started, follow these steps:
 
-- `frameList.json` contains the names of the movies along with their corresponding scene frame numbers.
+- `frameList.json` contains the names of the movies along with their corresponding scene frame numbers to extract. It comprises a total of 2620 images (1720x1080) from 9 Shinkai movies.
 
 - Download the movies from the provided links and rename them as specified in the json file.
     - The Place Promised in Our Early Days：https://drive.google.com/drive/folders/1cpsQ9rsg9EkgIi683xPi33FDJ1Mecy8h 
@@ -15,15 +15,15 @@ To get started, follow these steps:
     - Your name: https://drive.google.com/drive/folders/11ZVj2VZtpaFDULsxquB-Fxc9zEBYodXv 
     - Weathering with You: https://drive.google.com/drive/u/0/folders/1b00Z4sXYbImU0MjKHk5j2VlJJXpcGSqd
     
-- Extract frames from the downloaded movies through the following code:
+- Extract frames from the downloaded movies use the following script:
     ```python
     cd anime_dataset
 
-    python frame_extract.py frameList.json path/to/movie/folder path/to/save/extracted/data
+    python frame_extract.py frameList.json path/to/movie/folder path/to/save/extracted/data --crop
     ```
-    a total of 2620 images (1720x1080) from the 9 Shinkai movies should be obtained.
+    - `--crop`: Optional. Use this flag to enable cropping and save frames the same folder. If not specific, original frames will be saved in separate folders named after each movie.
 
-- Perform any necessary post-processing, e.g., cropping, to tailor the dataset to your specific requirements.
+- Perform any necessary post-processing, e.g., resizing or cropping, to tailor the dataset to your specific requirements.
 
 ----
 - All the things that need to be done in the future.

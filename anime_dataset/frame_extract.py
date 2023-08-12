@@ -39,10 +39,10 @@ def extract_frames(args):
                 break
         
         if not movie_file or not os.path.isfile(movie_file):
-            print(f"Movie'{movie_name}' not found in '{args.data_dir}'.")
+            print(f"'{movie_name}' not found in '{args.data_dir}'.")
             continue
 
-        print(f"Movie '{movie_name}' start extracting...")
+        print(f"'{movie_name}' start extracting...")
 
         # Create folder
         save_dir = os.path.join(args.save_path, "Anime Scene" if args.crop else movie_name)
@@ -66,10 +66,10 @@ def extract_frames(args):
                         cv2.imwrite(name, target_frame)
                         
                 else:
-                    print(f"Error reading frame {frame_num} from movie '{movie_name}'.")
+                    print(f"Error reading {frame_num} from '{movie_name}'.")
 
             else:
-                print(f"Invalid frame number {frame_num} for movie '{movie_name}'.")
+                print(f"Invalid {frame_num} for '{movie_name}'.")
             
         cap.release()
 

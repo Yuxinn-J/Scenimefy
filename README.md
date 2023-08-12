@@ -61,7 +61,7 @@ If you find this work useful for your research, please consider citing our paper
 
 ## Acknowledgments
 
-The code is mainly developed based on [FreezeG](https://github.com/bryandlee/FreezeG) and [Hneg_SRC](https://github.com/jcy132/Hneg_SRC).
+The code is mainly developed based on [FreezeG](https://github.com/bryandlee/FreezeG) and [Hneg_SRC](https://github.com/jcy132/Hneg_SRC). Thanks for their contributions.
 
 
 

@@ -54,7 +54,7 @@ If you find this work useful for your research, please consider citing our paper
 @inproceedings{jiang2023scenimefy,
   title={Scenimefy: Learning to Craft Anime Scene via Semi-Supervised Image-to-Image Translation},
   author={Jiang, Yuxin and Jiang, Liming and Yang, Shuai and and Loy, Chen Change},
-  journal={ICCV},
+  booktitle={ICCV},
   year={2023}
 }
 ```

@@ -27,7 +27,7 @@ To get started, follow these steps:
 
 - Extract frames from the downloaded movies use the following script:
     ```bash
-    cd anime_dataset
+    cd Anime_dataset
 
     python frame_extract.py frameList.json path/to/movie/folder path/to/save/extracted/data --crop
     ```

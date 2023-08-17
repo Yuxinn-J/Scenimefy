@@ -1,0 +1,15 @@
+name: scenimefy
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.15
+  - pytorch=1.8.1
+  - scipy=1.9.3
+  - pip:
+    - dominate==2.6.0
+    - torchvision==0.9.1
+    - pillow==8.0.1
+    - numpy==1.24.2
+    - visdom==0.1.8
+    - packaging==23.0

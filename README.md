@@ -29,8 +29,10 @@
 -----------------------------------------------------
 
 ### Updates
+<!--
 - [TODO] Full training pipeline release.
 - [TODO] Training code release.
+-->
 - [08/2023] Inference code is released.
 - [08/2023] Dataset is released.
 - [08/2023] Project page is built.
@@ -85,7 +87,7 @@ If you find this work useful for your research, please consider citing our paper
 
 ## :hugs: Acknowledgments
 
-Our code is mainly developed based on [FreezeG](https://github.com/bryandlee/FreezeG) and [Hneg_SRC](https://github.com/jcy132/Hneg_SRC)(single-modal image translation setting). We thank facebook for their contribution of [Mask2Former](https://github.com/facebookresearch/Mask2Former).
+Our code is mainly developed based on [Cartoon-StyleGAN](https://github.com/happy-jihye/Cartoon-StyleGAN) and [Hneg_SRC](https://github.com/jcy132/Hneg_SRC). We thank facebook for their contribution of [Mask2Former](https://github.com/facebookresearch/Mask2Former).
 
 ## :newspaper_roll: License
 

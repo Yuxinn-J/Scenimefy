@@ -36,7 +36,7 @@
 - [08/2023] Inference code is released.
 - [08/2023] Dataset is released.
 - [08/2023] Project page is built.
-- [07/2023] The paper is accepted to ICCV 2023 :partying_face:!
+- [07/2023] The paper is accepted to ICCV 2023!
 -----------------------------------------------------
 
 ## :wrench: Installation

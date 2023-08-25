@@ -15,7 +15,7 @@
   In ICCV 2023.
   </div>
 
-[arXiv](https://arxiv.org/pdf/2308.12968.pdf) | [Project Page](https://yuxinn-j.github.io/projects/Scenimefy.html) | [Anime Scene Dataset](#open_file_folder-anime-scene-dataset) 
+[Paper](https://arxiv.org/abs/2308.12968) | [Project Page](https://yuxinn-j.github.io/projects/Scenimefy.html) | [Anime Scene Dataset](#open_file_folder-anime-scene-dataset) 
 <!-- | ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Yuxinn-J/Scenimefy) -->
 
   </br>

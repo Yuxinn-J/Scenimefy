@@ -15,7 +15,8 @@
   In ICCV 2023.
   </div>
 
-[Paper](https://arxiv.org/abs/2308.12968) | [Project Page](https://yuxinn-j.github.io/projects/Scenimefy.html) | [Anime Scene Dataset](#open_file_folder-anime-scene-dataset) 
+:page_with_curl:[**Paper**](https://arxiv.org/abs/2308.12968) **|** :globe_with_meridians:[**Project Page**](https://yuxinn-j.github.io/projects/Scenimefy.html) **|** :open_file_folder:[**Anime Scene Dataset**](#open_file_folder-anime-scene-dataset) **|** 🤗[**Demo**](https://huggingface.co/spaces/YuxinJ/Scenimefy)
+
 <!-- | ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Yuxinn-J/Scenimefy) -->
 
   </br>
@@ -33,8 +34,8 @@
 - [TODO] Full training pipeline release.
 - [TODO] Training code release.
 -->
-- [08/2023] Inference code is released.
-- [08/2023] Dataset is released.
+- [08/2023] Integrated to [Hugging Face](https://huggingface.co/spaces/YuxinJ/Scenimefy). Enjoy the web demo!
+- [08/2023] Inference code and Dataset is released.
 - [08/2023] Project page is built.
 - [07/2023] The paper is accepted to ICCV 2023!
 -----------------------------------------------------

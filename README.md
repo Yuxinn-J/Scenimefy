@@ -50,6 +50,8 @@
   after installing [Anaconda](https://www.anaconda.com/), you can create a new Conda environment using `conda env create -f Semi_translation/environment.yml`.
 
 ## :zap: Quick Inference
+:one: [Python script](#python-script)  :two: [Gradio demo](#gradio-demo) 
+### Python script
 - Download pre-trained models: [Shinkai_net_G.pth](https://github.com/Yuxinn-J/Scenimefy/releases/download/v0.1.0/Shinkai_net_G.pth)
   ```bash
   wget https://github.com/Yuxinn-J/Scenimefy/releases/download/v0.1.0/Shinkai_net_G.pth -P Semi_translation/pretrained_models/shinkai-test/
@@ -64,6 +66,16 @@
   - Results are in the `./Semi_translation/results/shinkai-test/` by default. 
   - To prepare your own test images, you can refer to the data folder structure in [`./Semi_translation/datasets/Sample`](./Semi_translation/datasets/Sample), and place your test images in `testA`. 
 
+### Gradio demo
+- We provide a UI for testing Scenimefy, which is built with gradio. To launch the demo, simply execute the following command in your terminal:
+  ```
+  git clone https://huggingface.co/spaces/YuxinJ/Scenimefy
+  pip install -r requirements.txt
+  pip install gradio
+  python app.py
+  ```
+- This demo is also hosted on [Hugging Face🤗](https://huggingface.co/spaces/YuxinJ/Scenimefy).
+  
 ## :open_file_folder: Anime Scene Dataset
 ![anime-dataset](assets/anime-dataset.png)
 It is a high-quality anime scene dataset comprising 5,958 images with the following features:

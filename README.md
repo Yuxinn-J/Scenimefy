@@ -50,7 +50,7 @@
   after installing [Anaconda](https://www.anaconda.com/), you can create a new Conda environment using `conda env create -f Semi_translation/environment.yml`.
 
 ## :zap: Quick Inference
-:one: [Python script](#python-script)  :two: [Gradio demo](#gradio-demo) 
+1. [Python script](#python-script)  2. [Gradio demo](#gradio-demo) 
 ### Python script
 - Download pre-trained models: [Shinkai_net_G.pth](https://github.com/Yuxinn-J/Scenimefy/releases/download/v0.1.0/Shinkai_net_G.pth)
   ```bash

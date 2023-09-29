@@ -49,7 +49,7 @@ sh make.sh
     ```
 
 ### Generate pseudo-paired samples!
-Before running following command, ensure that you add the directory to your [`sys.path`](https://github.com/Yuxinn-J/Scenimefy-dev/blob/0a43378fa218934353a6a85081163452526c188f/Seg_selection/generate_pair.py#L2C1-L2C45) within the script to import `Generator` module from different directory.
+Before running following command, ensure that you add the directory to your [`sys.path`](https://github.com/Yuxinn-J/Scenimefy/blob/0a8d9872431dc914d06a1abf77609cf706c4b496/Seg_selection/generate_pair.py#L2) within the script to import `Generator` module from different directory.
 ```
 python generate_pair.py
 ```

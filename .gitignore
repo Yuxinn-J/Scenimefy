@@ -1,1 +1,6 @@
 */**/__pycache__
+*pt
+*.pkl
+Seg_selection/Mask2Former/
+Seg_selection/data/
+Seg_selection/detectron2/

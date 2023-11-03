@@ -25,7 +25,10 @@ class BaseOptions():
         """Define the common options that are used in both training and test."""
         # basic parameters
         # load unpaired dataset
-        parser.add_argument('--dataroot', default='./datasets/Sample', help='path to images (should have subfolders trainA, trainB, valA, valB, etc)')
+        parser.add_argument('--dataroot', default='./datasets/unpaired_s2a', help='path to images (should have subfolders trainA, trainB, valA, valB, etc)')
+        # load paired dataset
+        parser.add_argument('--paired_dataroot', default='./datasets/pair_s2a', help='path to images (should have subfolders trainA, trainB)')
+        
         parser.add_argument('--name', type=str, default='experiment_name', help='name of the experiment. It decides where to store samples and models')
         parser.add_argument('--easy_label', type=str, default='experiment_name', help='Interpretable name')
         parser.add_argument('--gpu_ids', type=str, default='0', help='gpu ids: e.g. 0  0,1,2, 0,2. use -1 for CPU')
@@ -49,6 +52,7 @@ class BaseOptions():
         parser.add_argument('--no_antialias_up', action='store_true', help='if specified, use [upconv(learned filter)] instead of [upconv(hard-coded [1,3,3,1] filter), conv]')
         # dataset parameters
         parser.add_argument('--dataset_mode', type=str, default='unaligned', help='chooses how datasets are loaded. [unaligned | aligned | single | colorization]')
+        parser.add_argument('--paired_dataset_mode', type=str, default='aligned', help='chooses how datasets are loaded. [unaligned | aligned | single | colorization]')
         parser.add_argument('--direction', type=str, default='AtoB', help='AtoB or BtoA')
         parser.add_argument('--serial_batches', action='store_true', help='if true, takes images in order to make batches, otherwise takes them randomly')
         parser.add_argument('--num_threads', default=0, type=int, help='# threads for loading data')

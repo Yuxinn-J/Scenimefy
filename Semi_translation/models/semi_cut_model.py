@@ -310,7 +310,7 @@ class SEMICUTModel(BaseModel):
             self.loss_G_GAN = self.criterionGAN(pred_fake, True).mean() * self.opt.lambda_GAN
             # paired discriminator
             pred_fake_p = self.netD_p(fake_AB)
-            self.loss_G_GAN_p = self.criterionGAN(pred_fake_p, True) * self.opt.lambda_GAN_p * lambda_pair
+            self.loss_G_GAN_p = self.criterionGAN(pred_fake_p, True) * self.opt.lambda_GAN_p
         else:
             self.loss_G_GAN = 0.0
             self.loss_G_GAN_p = 0.0
@@ -334,7 +334,7 @@ class SEMICUTModel(BaseModel):
             real_B_pool, _ = self.netF(real_B_feat, self.opt.num_patches, sample_ids)
 
         # StylePatchNCE loss
-        self.loss_NCE_s = self.calculate_NCE_loss(self.real_B_p, self.fake_B_p) * self.opt.lambda_NCE_s * lambda_pair
+        self.loss_NCE_s = self.calculate_NCE_loss(self.real_B_p, self.fake_B_p) * self.opt.lambda_NCE_s
 
         ## Relation Loss
         self.loss_SRC, weight = self.calculate_R_loss(real_A_pool, fake_B_pool, epoch=self.train_epoch)
@@ -360,9 +360,11 @@ class SEMICUTModel(BaseModel):
             nature_feature = self.VGG((self.real_A + 1) / 2.)
             self.loss_VGG = self.criterionVGG(fake_feature, nature_feature) * self.opt.lambda_VGG
             self.loss_G = self.loss_VGG
-
+        else:
+            self.loss_G = 0.0
+            
         # add G_GAN_p loss
-        self.loss_G += self.loss_G_GAN + self.loss_G_GAN_p + loss_HDCE_both + self.loss_SRC + self.loss_NCE_s
+        self.loss_G += self.loss_G_GAN + loss_HDCE_both + self.loss_SRC + (self.loss_G_GAN_p +self.loss_NCE_s ) * lambda_pair
         return self.loss_G
 
     def calculate_HDCE_loss(self, src, tgt, weight=None):

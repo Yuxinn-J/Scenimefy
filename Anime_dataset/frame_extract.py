@@ -27,7 +27,7 @@ def extract_frames(args):
     # Load the JSON file
     with open(args.json_path, 'r') as f:
         movie_data = json.load(f)
-
+    movie_num = 0
     for movie_name, frame_nums in movie_data.items():
         """
         Check if the video file exists
@@ -62,7 +62,7 @@ def extract_frames(args):
                     target_frames = [frame] if not args.crop else [crop_max_square(frame, i) for i in range(3)]
 
                     for i, target_frame in enumerate(target_frames):
-                        name = os.path.join(save_dir, f"frame_{frame_num}_{i}.png")
+                        name = os.path.join(save_dir, f"movie_{movie_num}_frame_{frame_num}_{i}.png")
                         cv2.imwrite(name, target_frame)
                         
                 else:
@@ -70,6 +70,7 @@ def extract_frames(args):
 
             else:
                 print(f"Invalid {frame_num} for '{movie_name}'.")
+        movie_num += 1
             
         cap.release()
 
